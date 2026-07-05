@@ -1,13 +1,13 @@
-# SharedMedia: AlertMediaPack - WoW Alert Sounds
+# SharedMedia: AlertMediaPack - WoW SharedMedia Sounds
 
 SharedMedia: AlertMediaPack is a lightweight World of Warcraft sound pack that adds 28 ready-to-use alert sounds to `LibSharedMedia-3.0`.
 
-Use it to add cleaner audio cues to WeakAuras, Plater, BigWigs, DBM, Details, ElvUI and any other addon that can select sounds from LibSharedMedia.
+Use it with any addon that reads sounds from SharedMedia or LibSharedMedia and needs more alert-ready media options.
 
 ## What players get
 
 - 28 curated alert sounds for combat warnings, raid mechanics, PvP alerts, cooldown cues and UI notifications.
-- Plug-and-play support for popular WoW addons that use LibSharedMedia sounds.
+- Plug-and-play support for any WoW addon that uses SharedMedia sound entries.
 - No configuration panel, no gameplay changes and no extra UI clutter.
 - Duplicate-registration checks so existing SharedMedia sound names and files are not registered twice.
 
@@ -23,15 +23,14 @@ Then enable **SharedMedia: AlertMediaPack** in the in-game addon list.
 
 ## How to use the sounds
 
-After installing, open an addon that supports LibSharedMedia sound selection and choose one of the **SharedMedia: AlertMediaPack** sounds from its sound dropdown.
+After installing, open any addon that supports SharedMedia or LibSharedMedia sound selection and choose one of the **SharedMedia: AlertMediaPack** sounds from its sound dropdown.
 
-Common examples:
+Examples of compatible addon categories:
 
-- **WeakAuras**: Actions, Conditions or Sound settings.
-- **Plater**: mod, script or profile sound options.
-- **BigWigs / DBM**: boss ability warning sounds.
-- **Details**: alert and notification sounds.
-- **ElvUI**: supported sound picker fields.
+- Aura and combat alert addons.
+- Nameplate and unit frame addons.
+- Boss mod and encounter warning addons.
+- UI, notification and profile addons with SharedMedia support.
 
 ## Requirement
 
@@ -41,7 +40,7 @@ It does not bundle LibSharedMedia itself. CurseForge packaging declares `LibShar
 
 ## Compatibility
 
-The addon registers standard LibSharedMedia sound entries only. Any addon that reads `sound` media from LibSharedMedia can use the included alerts.
+The addon registers standard LibSharedMedia sound entries only. Any addon that reads `sound` media from SharedMedia or LibSharedMedia can use the included alerts.
 
 The `.toc` declares the Retail and Classic-family interface versions present in the local `LibSharedMedia-3.0` package, plus the existing Retail 11.2.0 interface value.
 
