@@ -101,11 +101,12 @@ SharedMedia: AlertMediaPack is unofficial and is not affiliated with WeakAuras, 
 
 ## Project links
 
+- CurseForge: https://www.curseforge.com/wow/addons/sharedmedia-alert-media-pack
 - GitHub: https://github.com/WSakhana/SharedMedia_AlertMediaPack
 - Issues: https://github.com/WSakhana/SharedMedia_AlertMediaPack/issues
 
 ## CurseForge release
 
-Releases are packaged by CurseForge from Git tags. The `.pkgmeta` file defines the package name, LibSharedMedia dependency and changelog file.
+Releases are packaged by CurseForge from Git tags for https://www.curseforge.com/wow/addons/sharedmedia-alert-media-pack. The `.pkgmeta` file defines the package name, LibSharedMedia dependency and changelog file.
 
 Configure automatic packaging in the CurseForge project, then push version tags such as `1.0.0`. The packager uses the tag value for `@project-version@`.

@@ -6,6 +6,8 @@ This addon is configured for CurseForge automatic packaging from Git tags.
 
 Enable repository packaging in the CurseForge project and point it at this addon's source repository.
 
+Project URL: https://www.curseforge.com/wow/addons/sharedmedia-alert-media-pack
+
 ## Publish
 
 Use version tags. The packager uses the tag as `@project-version@`.
