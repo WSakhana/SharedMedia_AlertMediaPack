@@ -1,8 +1,15 @@
-# SharedMedia: AlertMediaPack
+# SharedMedia: AlertMediaPack - WoW Alert Sounds
 
-SharedMedia: AlertMediaPack is a curated sound pack for World of Warcraft addons using LibSharedMedia-3.0.
+SharedMedia: AlertMediaPack is a lightweight World of Warcraft sound pack that adds 28 ready-to-use alert sounds to `LibSharedMedia-3.0`.
 
-It registers a curated set of alert-ready sounds for compatible UI addons such as WeakAuras, Plater, BigWigs, DBM, Details, ElvUI and other addons that read media from LibSharedMedia.
+Use it to add cleaner audio cues to WeakAuras, Plater, BigWigs, DBM, Details, ElvUI and any other addon that can select sounds from LibSharedMedia.
+
+## What players get
+
+- 28 curated alert sounds for combat warnings, raid mechanics, PvP alerts, cooldown cues and UI notifications.
+- Plug-and-play support for popular WoW addons that use LibSharedMedia sounds.
+- No configuration panel, no gameplay changes and no extra UI clutter.
+- Duplicate-registration checks so existing SharedMedia sound names and files are not registered twice.
 
 ## Install
 
@@ -14,6 +21,18 @@ World of Warcraft/_retail_/Interface/AddOns/
 
 Then enable **SharedMedia: AlertMediaPack** in the in-game addon list.
 
+## How to use the sounds
+
+After installing, open an addon that supports LibSharedMedia sound selection and choose one of the **SharedMedia: AlertMediaPack** sounds from its sound dropdown.
+
+Common examples:
+
+- **WeakAuras**: Actions, Conditions or Sound settings.
+- **Plater**: mod, script or profile sound options.
+- **BigWigs / DBM**: boss ability warning sounds.
+- **Details**: alert and notification sounds.
+- **ElvUI**: supported sound picker fields.
+
 ## Requirement
 
 This addon registers media through `LibSharedMedia-3.0`.
@@ -22,7 +41,7 @@ It does not bundle LibSharedMedia itself. CurseForge packaging declares `LibShar
 
 ## Compatibility
 
-The addon registers standard LibSharedMedia sound entries only. Any addon that reads `sound` media from LibSharedMedia can use the included alerts, including WeakAuras, Plater, BigWigs, DBM, Details, ElvUI and other compatible UI addons.
+The addon registers standard LibSharedMedia sound entries only. Any addon that reads `sound` media from LibSharedMedia can use the included alerts.
 
 The `.toc` declares the Retail and Classic-family interface versions present in the local `LibSharedMedia-3.0` package, plus the existing Retail 11.2.0 interface value.
 
@@ -80,6 +99,11 @@ Additional alert-focused sounds were added from local addons after license and u
 - sArena Reloaded: MIT-licensed trinket alert sounds.
 
 SharedMedia: AlertMediaPack is unofficial and is not affiliated with WeakAuras, Wago, Blizzard Entertainment, or any listed compatible addon.
+
+## Project links
+
+- GitHub: https://github.com/WSakhana/SharedMedia_AlertMediaPack
+- Issues: https://github.com/WSakhana/SharedMedia_AlertMediaPack/issues
 
 ## CurseForge release
 
