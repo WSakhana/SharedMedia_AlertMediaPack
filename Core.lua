@@ -57,6 +57,38 @@ local function GetLibSharedMedia()
   return libStub and libStub(LSM_ADDON_NAME, true)
 end
 
+local function GetFileName(mediaPath)
+  if type(mediaPath) ~= "string" then
+    return nil
+  end
+
+  return mediaPath:match("[^\\/:]+$")
+end
+
+local function IsSoundAlreadyRegistered(LSM, mediaType, name, fileName)
+  if LSM.IsValid and LSM:IsValid(mediaType, name) then
+    return true
+  end
+
+  local mediaTable = LSM.HashTable and LSM:HashTable(mediaType)
+
+  if not mediaTable then
+    return false
+  end
+
+  local normalizedFileName = fileName:lower()
+
+  for _, mediaPath in pairs(mediaTable) do
+    local registeredFileName = GetFileName(mediaPath)
+
+    if registeredFileName and registeredFileName:lower() == normalizedFileName then
+      return true
+    end
+  end
+
+  return false
+end
+
 local function RegisterMedia()
   if registered then
     return true
@@ -71,7 +103,9 @@ local function RegisterMedia()
   local mediaType = LSM.MediaType and LSM.MediaType.SOUND or "sound"
 
   for name, fileName in pairs(sounds) do
-    LSM:Register(mediaType, name, MEDIA_PATH .. fileName)
+    if not IsSoundAlreadyRegistered(LSM, mediaType, name, fileName) then
+      LSM:Register(mediaType, name, MEDIA_PATH .. fileName)
+    end
   end
 
   registered = true
