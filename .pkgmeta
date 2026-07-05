@@ -1,0 +1,14 @@
+package-as: SharedMedia_AlertMediaPack
+
+required-dependencies:
+  - libsharedmedia-3-0
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - .github
+  - .gitignore
+  - .release
+  - RELEASE.md
