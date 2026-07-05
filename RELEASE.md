@@ -13,6 +13,6 @@ Project URL: https://www.curseforge.com/wow/addons/sharedmedia-alert-media-pack
 Use version tags. The packager uses the tag as `@project-version@`.
 
 ```bash
-git tag -a 1.0.0 -m "1.0.0"
-git push origin 1.0.0
+git tag -a 1.0.1 -m "1.0.1"
+git push origin 1.0.1
 ```
