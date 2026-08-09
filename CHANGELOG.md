@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 - Patch 12.1 Support
+
+- Added support for WoW patch 12.1.
+
 ## 1.0.1 - 2026-07-05
 
 - Added CurseForge project links.

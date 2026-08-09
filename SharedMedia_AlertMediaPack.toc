@@ -1,4 +1,4 @@
-## Interface: 11508, 11507, 20505, 20506, 30405, 38001, 40402, 50503, 50504, 110200, 120100, 120005, 120007
+## Interface: 11507, 11508, 20505, 20506, 30405, 38001, 40402, 50503, 50504, 110200, 120005, 120007, 120100
 ## Title: SharedMedia: AlertMediaPack
 ## Notes: Curated alert sounds for addons using LibSharedMedia.
 ## Author: Anahkas
