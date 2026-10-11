@@ -3,3 +3,7 @@
 .env
 .agents/
 .codex/
+
+# Local package output
+.release/
+__pycache__/

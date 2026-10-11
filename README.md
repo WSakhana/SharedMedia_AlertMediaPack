@@ -1,3 +1,5 @@
+Experimental WoW Forever support is available in this development branch. See [FOREVER.md](FOREVER.md) for the supported behavior, draft packages and pending in-game checks.
+
 # SharedMedia: AlertMediaPack - WoW SharedMedia Sounds
 
 SharedMedia: AlertMediaPack is a lightweight World of Warcraft sound pack that adds 28 ready-to-use alert sounds to `LibSharedMedia-3.0`.

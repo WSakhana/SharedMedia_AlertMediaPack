@@ -1,12 +1,13 @@
-## Interface: 11507, 11508, 20505, 20506, 30405, 38001, 40402, 50503, 50504, 110200, 120005, 120007, 120100
+## Interface: 11507, 11508, 20505, 20506, 30405, 38001, 40402, 50503, 50504, 110200, 120005, 120007, 120100, 16001
 ## Title: SharedMedia: AlertMediaPack
 ## Notes: Curated alert sounds for addons using LibSharedMedia.
 ## Author: Anahkas
-## Version: @project-version@
+## Version: 1.0.3-beta.1
 ## OptionalDeps: LibSharedMedia-3.0, WeakAuras, Plater, BigWigs, DBM-Core, Details, ElvUI
 ## X-Category: Audio & Media
 ## X-License: MIT for code; CC0-1.0, CC-BY-3.0, MIT, and author-provided bundled media
 ## X-Website: https://github.com/WSakhana/SharedMedia_AlertMediaPack
 ## X-CurseForge: https://www.curseforge.com/wow/addons/sharedmedia-alert-media-pack
 
+ClientCompat.lua
 Core.lua
