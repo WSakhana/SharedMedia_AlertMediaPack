@@ -1,7 +1,7 @@
 ## 1.0.3-beta.1 - Experimental WoW Forever Support
 - Added experimental WoW Forever support.
 
-# Changelog
+
 - Experimental beta; in-game validation is pending.
 
 ## 1.0.2 - Patch 12.1 Support
