@@ -1,3 +1,7 @@
+## 1.0.4 - WoW 12.1.5 Compatibility
+
+- Updated compatibility for WoW 12.1.5.
+
 ## 1.0.3-beta.1 - Experimental WoW Forever Support
 - Added experimental WoW Forever support.
 
